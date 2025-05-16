@@ -1,0 +1,16 @@
+## For my machine
+php artisan serve --host=192.168.1.49 --port=8000
+
+## Use it with same LAN/WiFi
+http://192.168.1.49:8000
+
+
+
+## To start the server for mysql
+
+step 1: sudo service apache2 status (if running then stop it)
+step 2: sudo service apache2 stop
+step 3: sudo /opt/lampp/./manager-linux-x64.run
+
+step 4: start mysql database and apache web server
+goto http://localhost/phpmyadmin
